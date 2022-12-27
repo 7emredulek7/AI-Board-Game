@@ -218,6 +218,9 @@ class HomePage extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
         MaterialButton(
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(12), // <-- Radius
+          ),
           minWidth: 200,
           disabledColor: Colors.grey.shade300,
           color: Colors.blue,
@@ -246,6 +249,9 @@ class HomePage extends StatelessWidget {
         ),
         const SizedBox(width: 20),
         MaterialButton(
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(12), // <-- Radius
+          ),
           minWidth: 200,
           disabledColor: Colors.grey.shade300,
           color: Colors.blue,
